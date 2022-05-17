@@ -1,2 +1,2 @@
-# mhdnjscalculator
+# calculator
 simple calculator using javascript
