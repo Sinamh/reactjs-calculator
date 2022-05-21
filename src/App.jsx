@@ -1,12 +1,14 @@
-import Calc from "./components/Calc";
+import Header from "./components/shared/Header";
+import Footer from "./components/shared/Footer";
+import Calc from "./pages/Calc";
 import "./App.scss";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
+      <Header></Header>
       <Calc />
-      <footer className="App-footer"></footer>
+      <Footer></Footer>
     </div>
   );
 }
